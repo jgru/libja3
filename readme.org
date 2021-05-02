@@ -1,0 +1,13 @@
+
+* libja3 -- WORK IN PROGRESS!
+~libja3~ is a C implementation of J. Althouse's method for profiling SSL/TLS Clients called [[https://github.com/salesforce/ja3][JA3]]. This project aims at providing a C-library for the JA3-algorithm and a fast and easy to use CLI tool, called ~ja3sum~, which takes a .pcap- or .pcapng-file to extract all JA3-TLS-fingerprints for further processing.
+** Usage of ~ja3sum~
+TODO
+** Usage of ~libja3~'s API
+TODO
+** References
+The following sources served as inspiration and have been used as references:
+- https://github.com/LeeBrotherston/tls-fingerprinting/blob/master/fingerprintls/fingerprintls.h for general pcap and packet parsing
+- https://github.com/ge0rg/tls-hello-dump/blob/master/tls-hello-dump.c for general pcap and packet parsing
+- https://github.com/salesforce/ja3/tree/master/python for JA3 construction
+- https://github.com/open-ch/ja3/blob/42252477f4aa9819fd65d229a1e672662d40094e/parser.go#L47 for JA3 construction also
